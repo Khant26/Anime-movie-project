@@ -23,54 +23,86 @@
 .navi button{
     margin-left: 10px;
 }
-.row{
-    width: 380px;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 5px;
+.search{
+   position: relative;
+   display: inline-block;
 }
-.row button {
-    background-color: antiquewhite;
+.search button {
+    background-color: white;
     border-radius: 5px;
     width: 70px;
-    margin-left: 0px;
+    height: 30px;
+    margin-left: 10px;
     border: 1px solid black;
-
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+.search button:hover{
+    opacity: 0.8;
 }
 #input-box{
+    display: inline;
     width: 300px;
+    height: 30px;
     border-radius: 5px;
     background-color: transparent;
     border: none;
     color: white;
     margin-left: 2px;
+    border: 1px solid white;
+
+}
+#input-box:focus{
+    border: none;
 }
 
 .poster-card{
     background-size: cover;
     width: 250px;
-    height: 350px;
+    height: 315px;
     background-image: url(https://cdn.shopify.com/s/files/1/0090/5258/6081/products/gbeye-attack-on-titan-season-4-group-shot-poster-38x52cm_500x.jpg?v=1671107406);
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 12%;
     border: 1px solid white;
+    border-radius: 20px;
+}
+.poster-card h3{
+    color: rgba(255, 255, 255, 0.863);
+    margin-top: 329px;
+    margin-left: 35px;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .content-box{
     width: 700px;
-    height: 350px;
+    height: 450px;
     background-color: transparent;
     border: 1px solid white;
+    border-radius: 20px;
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 35%;
 }
 
+.contentTitle p{
+    color: rgba(255, 255, 255, 0.817);
+    height: 10px;
+    width: 410px;
+    position: absolute;
+    top: 120px;
+    left: 549px;
+    padding-left: 11px;
+}
 .content-box p{
-    color: white;
-    padding: 3px 10px 3px 10px;
-    font-size: 18px;
+    color: rgba(255, 255, 255, 0.845);
+    padding: 20px 10px 3px 10px;
+    font-size: 14px;
+    padding-left: 20px;
 }
 .footer-home{
     width: 1519px;
@@ -91,29 +123,63 @@
 .butt button{
     border-radius: 5px;
     width: 70px;
-    background-color: antiquewhite;
-    border: 1px solid black;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 10px;
 }
 
-button:hover{
-    background-color: aquamarine;
+.butt button:hover{
+    opacity: 0.8;
 }
 
 .naviButt{
     margin-left: 164px;
 }
 .naviButt button{
-    height: 50px;
+    height: 30px;
     width: 100px;
     background-color: transparent;
     color: white;
-    border: 1px solid white;
     margin-left: 10px;
     margin-top: 10px;
-    border-radius: 20%;
+    border: none;
 }
 
 .naviButt button:hover{
-    background-color: aquamarine;
-    color: black;
+    cursor: pointer;
+    opacity: 0.8;    
+}
+
+.previousButton{
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+}
+
+.typeP p{
+    color: rgba(255, 255, 255, 0.845);
+    width: 150px;
+    height: 400px;
+    font-size: 14px;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    padding-left: 11px;
+}
+
+.detailP p{
+    color: rgba(255, 255, 255, 0.845);
+    width: 150px;
+    height: 400px;
+    font-size: 14px;
+    position: absolute;
+    top: 400px;
+    left: 1050px;
+    padding-left: 20px;
 }
