@@ -65,9 +65,10 @@
     height: 315px;
     background-image: url(https://cdn.shopify.com/s/files/1/0090/5258/6081/products/gbeye-attack-on-titan-season-4-group-shot-poster-38x52cm_500x.jpg?v=1671107406);
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 12%;
     border: 1px solid white;
+    border-radius: 20px;
 }
 .poster-card h3{
     color: rgba(255, 255, 255, 0.863);
@@ -79,18 +80,29 @@
 
 .content-box{
     width: 700px;
-    height: 350px;
+    height: 450px;
     background-color: transparent;
     border: 1px solid white;
+    border-radius: 20px;
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 35%;
 }
 
+.contentTitle p{
+    color: rgba(255, 255, 255, 0.817);
+    height: 10px;
+    width: 410px;
+    position: absolute;
+    top: 120px;
+    left: 549px;
+    padding-left: 11px;
+}
 .content-box p{
-    color: white;
-    padding: 3px 10px 3px 10px;
-    font-size: 18px;
+    color: rgba(255, 255, 255, 0.845);
+    padding: 20px 10px 3px 10px;
+    font-size: 14px;
+    padding-left: 20px;
 }
 .footer-home{
     width: 1519px;
@@ -141,4 +153,33 @@
 .naviButt button:hover{
     cursor: pointer;
     opacity: 0.8;    
+}
+
+.previousButton{
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+}
+
+.typeP p{
+    color: rgba(255, 255, 255, 0.845);
+    width: 150px;
+    height: 400px;
+    font-size: 14px;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    padding-left: 11px;
+}
+
+.detailP p{
+    color: rgba(255, 255, 255, 0.845);
+    width: 150px;
+    height: 400px;
+    font-size: 14px;
+    position: absolute;
+    top: 400px;
+    left: 1050px;
+    padding-left: 20px;
 }
